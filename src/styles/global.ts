@@ -9,12 +9,14 @@ export default createGlobalStyle`
   }
 
   body {
-    background: #F0F2F5 ;
-    -webkit-font-smoothing: antialiased
+    background: ${props => props.theme.colors};
+    -webkit-font-smoothing: antialiased;
+    color: ${props => props.theme.colors.color}
   }
 
   body, input, button {
     font: 16px "Poppins", sans-serif;
+    transition: all 0.2s;
   }
 
   button {

@@ -3,7 +3,7 @@ import { useHistory } from 'react-router-dom';
 
 import filesize from 'filesize';
 
-import Header from '../../components/Header';
+/* import Header from '../../components/Header'; */
 import FileList from '../../components/FileList';
 import Upload from '../../components/Upload';
 
@@ -52,7 +52,7 @@ const Import: React.FC = () => {
 
   return (
     <>
-      <Header size="small" />
+      {/* <Header size="small" /> */}
       <Container>
         <Title>Importar uma transação</Title>
         <ImportFileContainer>
